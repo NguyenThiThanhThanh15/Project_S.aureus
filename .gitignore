@@ -1,0 +1,10 @@
+data/
+results/
+*.fastq
+*.gz
+*.bam
+*.fasta
+*.faa
+*.html
+*.json
+session.log
