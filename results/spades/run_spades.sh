@@ -1,0 +1,10 @@
+set -e
+true
+true
+/opt/conda/envs/Assembly/bin/spades-core /workspaces/Project_S.aureus/results/spades/K21/configs/config.info
+/opt/conda/envs/Assembly/bin/spades-core /workspaces/Project_S.aureus/results/spades/K33/configs/config.info
+/opt/conda/envs/Assembly/bin/spades-core /workspaces/Project_S.aureus/results/spades/K55/configs/config.info
+/opt/conda/envs/Assembly/bin/python3 /opt/conda/envs/Assembly/share/spades/spades_pipeline/scripts/copy_files.py /workspaces/Project_S.aureus/results/spades/K55/before_rr.fasta /workspaces/Project_S.aureus/results/spades/before_rr.fasta /workspaces/Project_S.aureus/results/spades/K55/assembly_graph_after_simplification.gfa /workspaces/Project_S.aureus/results/spades/assembly_graph_after_simplification.gfa /workspaces/Project_S.aureus/results/spades/K55/final_contigs.fasta /workspaces/Project_S.aureus/results/spades/contigs.fasta /workspaces/Project_S.aureus/results/spades/K55/first_pe_contigs.fasta /workspaces/Project_S.aureus/results/spades/first_pe_contigs.fasta /workspaces/Project_S.aureus/results/spades/K55/strain_graph.gfa /workspaces/Project_S.aureus/results/spades/strain_graph.gfa /workspaces/Project_S.aureus/results/spades/K55/scaffolds.fasta /workspaces/Project_S.aureus/results/spades/scaffolds.fasta /workspaces/Project_S.aureus/results/spades/K55/scaffolds.paths /workspaces/Project_S.aureus/results/spades/scaffolds.paths /workspaces/Project_S.aureus/results/spades/K55/assembly_graph_with_scaffolds.gfa /workspaces/Project_S.aureus/results/spades/assembly_graph_with_scaffolds.gfa /workspaces/Project_S.aureus/results/spades/K55/assembly_graph.fastg /workspaces/Project_S.aureus/results/spades/assembly_graph.fastg /workspaces/Project_S.aureus/results/spades/K55/final_contigs.paths /workspaces/Project_S.aureus/results/spades/contigs.paths
+true
+/opt/conda/envs/Assembly/bin/python3 /opt/conda/envs/Assembly/share/spades/spades_pipeline/scripts/breaking_scaffolds_script.py --result_scaffolds_filename /workspaces/Project_S.aureus/results/spades/scaffolds.fasta --misc_dir /workspaces/Project_S.aureus/results/spades/misc --threshold_for_breaking_scaffolds 3
+true

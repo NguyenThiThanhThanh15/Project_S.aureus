@@ -1,11 +1,4 @@
 data/
-results/
 *.fastq
 *.gz
 *.bam
-*.fasta
-*.faa
-*.html
-*.json
-session.log
-virulencefinder_db/

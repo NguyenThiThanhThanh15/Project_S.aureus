@@ -1,0 +1,4 @@
+
+=== Error correction and assembling warnings:
+ * 0:29:12.499  2207M / 2511M WARN    General                 (launcher.cpp              : 181)   Your data seems to have high uniform coverage depth. It is strongly recommended to use --isolate option.
+======= Warnings saved to /workspaces/Project_S.aureus/results/spades/warnings.log

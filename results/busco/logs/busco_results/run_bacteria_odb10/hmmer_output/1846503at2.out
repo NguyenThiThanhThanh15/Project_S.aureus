@@ -1,0 +1,15 @@
+#                                                                                                         --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                     accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                             ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NODE_14_length_70073_cov_210.131480:35277-35759|+ -            161 1846503at2           -            110   1.2e-36  122.6   0.5   1   1     6e-38     1e-34  116.4   0.5     2   108     5   138     4   140 0.87 NODE_14_length_70073_cov_210.131480_35 # 35277 # 35759 # 1 # ID=14_35;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.308
+NODE_1_length_221181_cov_231.485492:85747-86145|- -            133 1846503at2           -            110   1.5e-05   22.4   0.0   1   1   1.9e-08   3.1e-05   21.4   0.0     2    37     3    38     2    72 0.79 NODE_1_length_221181_cov_231.485492_83 # 85747 # 86145 # -1 # ID=1_83;partial=00;start_type=ATG;rbs_motif=AGGAGG;rbs_spacer=5-10bp;gc_cont=0.323
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /workspaces/Project_S.aureus/busco_downloads/lineages/bacteria_odb10/hmms/1846503at2.hmm
+# Target file:     /workspaces/Project_S.aureus/busco_results/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /workspaces/Project_S.aureus/busco_results/run_bacteria_odb10/hmmer_output/1846503at2.out --cpu 1 /workspaces/Project_S.aureus/busco_downloads/lineages/bacteria_odb10/hmms/1846503at2.hmm /workspaces/Project_S.aureus/busco_results/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /workspaces/Project_S.aureus
+# Date:            Tue Mar 31 16:04:31 2026
+# [ok]

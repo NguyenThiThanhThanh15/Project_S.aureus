@@ -1,0 +1,7 @@
+organism: Staphylococcus aureus Thanh_Sample 
+contigs: 1132
+bases: 2997580
+CDS: 2567
+rRNA: 3
+tRNA: 42
+tmRNA: 1

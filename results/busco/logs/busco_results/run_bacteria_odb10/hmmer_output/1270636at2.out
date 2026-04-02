@@ -1,0 +1,16 @@
+#                                                                                                         --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                     accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                             ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NODE_8_length_131064_cov_236.695746:69698-70360|- -            221 1270636at2           -            162   1.5e-52  175.3  14.7   1   2   8.5e-17   1.4e-13   48.6   0.9     1    53     3    62     3    81 0.82 NODE_8_length_131064_cov_236.695746_78 # 69698 # 70360 # -1 # ID=8_78;partial=00;start_type=ATG;rbs_motif=AGGAGG;rbs_spacer=5-10bp;gc_cont=0.383
+NODE_8_length_131064_cov_236.695746:69698-70360|- -            221 1270636at2           -            162   1.5e-52  175.3  14.7   2   2   2.9e-42   4.8e-39  131.4   7.2    60   162   106   216    74   216 0.88 NODE_8_length_131064_cov_236.695746_78 # 69698 # 70360 # -1 # ID=8_78;partial=00;start_type=ATG;rbs_motif=AGGAGG;rbs_spacer=5-10bp;gc_cont=0.383
+NODE_544_length_232_cov_0.994350:3-224|+          -             74 1270636at2           -            162   2.1e-28   96.9   0.4   1   1   1.3e-31   2.2e-28   96.7   0.4    97   162     3    72     1    72 0.95 NODE_544_length_232_cov_0.994350_1 # 3 # 224 # 1 # ID=544_1;partial=10;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.505
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /workspaces/Project_S.aureus/busco_downloads/lineages/bacteria_odb10/hmms/1270636at2.hmm
+# Target file:     /workspaces/Project_S.aureus/busco_results/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /workspaces/Project_S.aureus/busco_results/run_bacteria_odb10/hmmer_output/1270636at2.out --cpu 1 /workspaces/Project_S.aureus/busco_downloads/lineages/bacteria_odb10/hmms/1270636at2.hmm /workspaces/Project_S.aureus/busco_results/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /workspaces/Project_S.aureus
+# Date:            Tue Mar 31 16:04:29 2026
+# [ok]

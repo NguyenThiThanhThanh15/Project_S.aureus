@@ -1,0 +1,17 @@
+#                                                                                                          --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                      accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                              ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NODE_10_length_105441_cov_213.290342:27154-27756|+ -            201 1211060at2           -            164   1.7e-57  191.3   0.5   1   1   1.7e-58   1.9e-55  184.7   0.5     1   164     1   200     1   200 0.86 NODE_10_length_105441_cov_213.290342_22 # 27154 # 27756 # 1 # ID=10_22;partial=00;start_type=ATG;rbs_motif=AGGAGG;rbs_spacer=5-10bp;gc_cont=0.355
+NODE_30_length_23578_cov_208.027377:17916-18722|+  -            269 1211060at2           -            164   0.00011   19.7   0.1   1   1     2e-07   0.00022   18.6   0.1    78   127   191   240   155   256 0.87 NODE_30_length_23578_cov_208.027377_19 # 17916 # 18722 # 1 # ID=30_19;partial=00;start_type=ATG;rbs_motif=GGA/GAG/AGG;rbs_spacer=5-10bp;gc_cont=0.305
+NODE_24_length_37904_cov_236.807842:11978-12241|-  -             88 1211060at2           -            164   0.00095   16.6   0.5   1   2     2e-06    0.0022   15.4   0.3    79   130     2    53     1    80 0.89 NODE_24_length_37904_cov_236.807842_12 # 11978 # 12241 # -1 # ID=24_12;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.348
+NODE_24_length_37904_cov_236.807842:11978-12241|-  -             88 1211060at2           -            164   0.00095   16.6   0.5   2   2      0.15   1.7e+02   -0.5   0.0    43    56    68    81    62    86 0.74 NODE_24_length_37904_cov_236.807842_12 # 11978 # 12241 # -1 # ID=24_12;partial=00;start_type=ATG;rbs_motif=GGAG/GAGG;rbs_spacer=5-10bp;gc_cont=0.348
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /workspaces/Project_S.aureus/busco_downloads/lineages/bacteria_odb10/hmms/1211060at2.hmm
+# Target file:     /workspaces/Project_S.aureus/busco_results/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /workspaces/Project_S.aureus/busco_results/run_bacteria_odb10/hmmer_output/1211060at2.out --cpu 1 /workspaces/Project_S.aureus/busco_downloads/lineages/bacteria_odb10/hmms/1211060at2.hmm /workspaces/Project_S.aureus/busco_results/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /workspaces/Project_S.aureus
+# Date:            Tue Mar 31 16:04:30 2026
+# [ok]

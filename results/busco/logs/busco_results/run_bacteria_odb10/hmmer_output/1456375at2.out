@@ -1,0 +1,15 @@
+#                                                                                                         --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                     accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                             ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NODE_8_length_131064_cov_236.695746:64261-64800|- -            180 1456375at2           -            143   1.1e-70  233.8   0.5   1   1   8.5e-74   1.4e-70  233.4   0.5     1   142    18   170    18   171 0.93 NODE_8_length_131064_cov_236.695746_66 # 64261 # 64800 # -1 # ID=8_66;partial=00;start_type=TTG;rbs_motif=AGGAGG;rbs_spacer=5-10bp;gc_cont=0.344
+NODE_679_length_223_cov_1.029762:7-222|-          -             72 1456375at2           -            143   2.2e-20   70.7   0.0   1   1   1.4e-23   2.3e-20   70.6   0.0    94   142    13    62     2    63 0.89 NODE_679_length_223_cov_1.029762_1 # 7 # 222 # -1 # ID=679_1;partial=01;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.370
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /workspaces/Project_S.aureus/busco_downloads/lineages/bacteria_odb10/hmms/1456375at2.hmm
+# Target file:     /workspaces/Project_S.aureus/busco_results/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /workspaces/Project_S.aureus/busco_results/run_bacteria_odb10/hmmer_output/1456375at2.out --cpu 1 /workspaces/Project_S.aureus/busco_downloads/lineages/bacteria_odb10/hmms/1456375at2.hmm /workspaces/Project_S.aureus/busco_results/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /workspaces/Project_S.aureus
+# Date:            Tue Mar 31 16:04:30 2026
+# [ok]

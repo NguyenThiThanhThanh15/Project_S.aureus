@@ -1,0 +1,20 @@
+#                                                                                                           --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name                                       accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#                               ------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+NODE_1_length_221181_cov_231.485492:194056-197607|- -           1184 9601at2              -            826         0 1299.7  12.5   1   6      0.19   3.1e+02   -3.3   0.0     2    14    25    37    24    55 0.90 NODE_1_length_221181_cov_231.485492_188 # 194056 # 197607 # -1 # ID=1_188;partial=00;start_type=TTG;rbs_motif=AGGA/GGAG/GAGG;rbs_spacer=11-12bp;gc_cont=0.376
+NODE_1_length_221181_cov_231.485492:194056-197607|- -           1184 9601at2              -            826         0 1299.7  12.5   2   6   5.5e-43   9.2e-40  134.0   0.0    21   128    78   201    72   215 0.85 NODE_1_length_221181_cov_231.485492_188 # 194056 # 197607 # -1 # ID=1_188;partial=00;start_type=TTG;rbs_motif=AGGA/GGAG/GAGG;rbs_spacer=11-12bp;gc_cont=0.376
+NODE_1_length_221181_cov_231.485492:194056-197607|- -           1184 9601at2              -            826         0 1299.7  12.5   3   6   7.8e-20   1.3e-16   57.4   0.0   127   184   225   282   216   292 0.91 NODE_1_length_221181_cov_231.485492_188 # 194056 # 197607 # -1 # ID=1_188;partial=00;start_type=TTG;rbs_motif=AGGA/GGAG/GAGG;rbs_spacer=11-12bp;gc_cont=0.376
+NODE_1_length_221181_cov_231.485492:194056-197607|- -           1184 9601at2              -            826         0 1299.7  12.5   4   6   3.5e-95   5.9e-92  306.7   0.0   181   347   378   554   370   588 0.87 NODE_1_length_221181_cov_231.485492_188 # 194056 # 197607 # -1 # ID=1_188;partial=00;start_type=TTG;rbs_motif=AGGA/GGAG/GAGG;rbs_spacer=11-12bp;gc_cont=0.376
+NODE_1_length_221181_cov_231.485492:194056-197607|- -           1184 9601at2              -            826         0 1299.7  12.5   5   6   1.9e-32   3.2e-29   99.2   0.3   356   430   604   681   597   700 0.83 NODE_1_length_221181_cov_231.485492_188 # 194056 # 197607 # -1 # ID=1_188;partial=00;start_type=TTG;rbs_motif=AGGA/GGAG/GAGG;rbs_spacer=11-12bp;gc_cont=0.376
+NODE_1_length_221181_cov_231.485492:194056-197607|- -           1184 9601at2              -            826         0 1299.7  12.5   6   6  1.1e-215  1.8e-212  705.4   1.1   430   826   711  1144   697  1144 0.93 NODE_1_length_221181_cov_231.485492_188 # 194056 # 197607 # -1 # ID=1_188;partial=00;start_type=TTG;rbs_motif=AGGA/GGAG/GAGG;rbs_spacer=11-12bp;gc_cont=0.376
+NODE_554_length_230_cov_1.160000:2-229|-            -             76 9601at2              -            826   2.3e-05   20.2   0.0   1   1   1.4e-08   2.3e-05   20.2   0.0   128   162    42    76     2    76 0.87 NODE_554_length_230_cov_1.160000_1 # 2 # 229 # -1 # ID=554_1;partial=11;start_type=Edge;rbs_motif=None;rbs_spacer=None;gc_cont=0.351
+#
+# Program:         hmmsearch
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SEARCH
+# Query file:      /workspaces/Project_S.aureus/busco_downloads/lineages/bacteria_odb10/hmms/9601at2.hmm
+# Target file:     /workspaces/Project_S.aureus/busco_results/prodigal_output/predicted_genes/predicted.faa
+# Option settings: hmmsearch --domtblout /workspaces/Project_S.aureus/busco_results/run_bacteria_odb10/hmmer_output/9601at2.out --cpu 1 /workspaces/Project_S.aureus/busco_downloads/lineages/bacteria_odb10/hmms/9601at2.hmm /workspaces/Project_S.aureus/busco_results/prodigal_output/predicted_genes/predicted.faa 
+# Current dir:     /workspaces/Project_S.aureus
+# Date:            Tue Mar 31 16:04:33 2026
+# [ok]
