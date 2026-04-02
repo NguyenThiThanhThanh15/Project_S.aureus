@@ -8,3 +8,4 @@ results/
 *.html
 *.json
 session.log
+virulencefinder_db/
